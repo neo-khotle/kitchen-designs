@@ -1,2 +1,2 @@
-# kitchen-designs
+# InDecor
  Kitchen cabinet designs website
