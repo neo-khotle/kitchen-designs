@@ -4,36 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InDecor</title>
-    <link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://kit.fontawesome.com/c9be1a5292.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="header">
         <div class="container">
+            <div class="right_text">
+                <ul>
+                    <li>
+                        <a href="#">Home Page <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href="#">Sample Kitchens <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href="#">Our Studio <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href="#">Why Choose Us <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                </ul>
+                <div class="header-text">
+                    <h1> InDecor </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <!--------------home-------------->
-                <div class="right_text">
-                    <ul>
-                        <li>
-                            <a href="#">Home Page <i class="fa-solid fa-chevron-down"></i></a>
-                            <a href="#">Sample Kitchens <i class="fa-solid fa-chevron-down"></i></a>
-                            <a href="#">Our Studio <i class="fa-solid fa-chevron-down"></i></a>
-                            <a href="#">Why Choose Us <i class="fa-solid fa-chevron-down"></i></a>
-
-                           <!-- <img src="img/down-arow.png" alt="#">
-                            <div class="sub_menu">
-                                <a href="#">Door Style</a>
-                                <a href="#">Accessories</a> -->
-
-                            </div>
-                        </li>
-                        <div class="header-text">
-                            <h1> InDecor
-                        </h1>
+    <!-- Sample Kitchens Gallery -->
+    <div id="gallery">
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide" style="background: url(img/2.jpg);">
+                        <div class="slide-info">
+                            <h1 class="slide-title">style type here</h1>
+                            <h2 class="slide-title">short description</h2>
                         </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide" style="background: url(img/3.jpg);">
+                        <div class="slide-info">
+                            <h1 class="slide-title">style type here2</h1>
+                            <h2 class="slide-title">style type here</h2>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide" style="background: url(img/3.jpg);">
+                        <div class="slide-info">
+                            <h1 class="slide-title">style type here3</h1>
+                            <h2 class="slide-title">style type here</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Navigation buttons for Swiper -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- Include Swiper's JS library -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link to your custom script.js -->
+    <script src="script.js"></script>
+
     
 </body>
-
-
 </html>
